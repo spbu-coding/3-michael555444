@@ -53,7 +53,7 @@ void float_solve() {
         printf("Distance: %.11f \n\n", max_err);
         estim++;
     }
-    printf("%d раз(а) успели поделить float с delta(10^-4) на 2^%d", estim, estim);
+    printf("%d раз(а) успели поделить float delta(10^-4) на 2", estim);
 }
 
 void double_solve() {
@@ -82,7 +82,7 @@ void double_solve() {
         printf("Distance: %.16lf \n\n", max_err);
         estim++;
     }
-    printf("%d раз(а) успели поделить double с delta(10^-4) на 2^%d", estim, estim);
+    printf("%d раз(а) успели поделить double delta(10^-4) на 2", estim);
 }
 
 int main() {
